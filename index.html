@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="calculator">
+
+    <div class="top">
+
+      <span class="unit">deg</span>
+      <section class="screen">
+        <div id="display" class="input">0</div>
+        <div class="result"></div>
+      </section>
+
+    </div>
+
+    <div class="bottom">
+
+      <section class="keys">
+
+        <div class="column">
+          <span class="number" id="seven" data-key="7">7</span>
+          <span class="number" id="four" data-key="4">4</span>
+          <span class="number" id="one" data-key="1">1</span>
+          <span id="decimal" data-key=".">.</span>
+        </div>
+
+        <div class="column">
+          <span class="number" id="eight" data-key="8">8</span>
+          <span class="number" id="five" data-key="5">5</span>
+          <span class="number" id="two" data-key="2">2</span>
+          <span class="number" id="zero" data-key="0">0</span>
+        </div>
+
+        <div class="column">
+          <span class="number" id="nine" data-key="9">9</span>
+          <span class="number" id="six" data-key="6">6</span>
+          <span class="number" id="three" data-key="3">3</span>
+          <span id="equals" class="equals" data-key="=">=</span>
+        </div>
+      </section>
+
+      <section class="operators">
+        <span id="clear" class="clear">clear</span>
+        <span class="delete">del</span>
+        <span id="divide" data-key="÷">÷</span>
+        <span id="multiply" data-key="x">x</span>
+        <span id="subtract" data-key="-">-</span>
+        <span id="add" data-key="+">+</span>
+      </section>
+
+    </div>
+
+  </main>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
